@@ -1,9 +1,7 @@
 <svg viewBox="0 0 9 19" fill="none"
     xmlns="http://www.w3.org/2000/svg">
-    <rect y="2" width="1" height="7" fill="#CC0000"/>
-    <rect x="2" y="2" width="1" height="7" fill="#CC0000"/>
-    <rect x="4" y="2" width="1" height="7" fill="#CC0000"/>
-    <rect x="6" y="2" width="1" height="7" fill="#CC0000"/>
-    <rect x="8" y="2" width="1" height="7" fill="#CC0000"/>
+    <line x1="2.5" y1="2" x2="2.5" y2="9" stroke="#CC0000"/>
+    <line x1="4.5" y1="2" x2="4.5" y2="9" stroke="#CC0000"/>
+    <line x1="6.5" y1="2" x2="6.5" y2="9" stroke="#CC0000"/>
     <rect x="0.5" y="0.5" width="8" height="18" stroke="#CC0000"/>
 </svg>
