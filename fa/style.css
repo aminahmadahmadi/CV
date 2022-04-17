@@ -213,10 +213,26 @@ a:hover {
     text-align: left;
 }
 
+#updateLink {
+    display: none;
+}
+
+.box {
+    break-inside: avoid;
+}
+
 @media print {
     #info {
         left: 20px;
         top: 0px;
         position: absolute;
+    }
+
+    img {
+        margin-top: -20px;
+    }
+
+    #updateLink {
+        display: inline;
     }
 }
