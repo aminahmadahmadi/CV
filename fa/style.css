@@ -18,8 +18,10 @@
 html {
     direction: rtl;
     color: var(--black);
-    font-family: 'Anjoman';
+    font-family: var(--Fontregular), var(--Fontprotect);
     font-size: 8px;
+    font-weight: 400;
+
 }
 
 
@@ -56,19 +58,24 @@ body {
 
 .black {
     font-family: var(--Fontblack), var(--Fontprotect);
+    font-weight: 700;
+
 }
 
 .bold {
     font-family: var(--Fontbold), var(--Fontprotect);
+    font-weight: 600;
+
 }
 
 .Regular {
     font-family: var(--Fontregular), var(--Fontprotect);
+    font-weight: 400;
 }
 
 .light {
     font-family: var(--Fontlight), var(--Fontprotect);
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .thin {
