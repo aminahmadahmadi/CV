@@ -58,13 +58,13 @@ body {
 
 .black {
     font-family: var(--Fontblack), var(--Fontprotect);
-    font-weight: 700;
+    font-weight: 900;
 
 }
 
 .bold {
     font-family: var(--Fontbold), var(--Fontprotect);
-    font-weight: 600;
+    font-weight: 700;
 
 }
 
