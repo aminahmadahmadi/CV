@@ -1,0 +1,212 @@
+:root {
+    --Colorblack: #262626;
+    --Colorred: #c00;
+    --Colorvdgray: #888;
+    --Colordgray: #aaa;
+    --Colorgray: #ccc;
+    --Colorlgray: #eee;
+    --Colorvlgray: #f5f5f5;
+
+    --Fontregular: 'Anjoman';
+    --Fontlight: 'Anjoman Light';
+    --Fontthin: 'Anjoman Thin';
+    --Fontblack: 'Anjoman Black';
+    --Fontbold: 'Anjoman Bold';
+}
+
+html {
+    direction: rtl;
+    color: var(--black);
+    font-family: 'Anjoman';
+    font-size: 8px;
+}
+
+
+body {
+    padding: 3rem;
+    margin: 0 auto;
+    /* min-width: 50%; */
+    max-width: 65rem;
+}
+
+/* .tags {
+} */
+
+.tags div {
+    margin: 0rem -0.1rem 0.6rem 0.3rem;
+    padding: 0.3rem 1rem 0.2rem 1rem;
+    border-radius: 3rem;
+    background-color: var(--Colorvlgray);
+    color: var(--Colordgray);
+    display: inline-block;
+    /* font-size: 200%; */
+}
+
+.tags div:hover {
+    color: var(--Colorred)
+}
+
+.hover2 div:hover {
+    color: var(--Colorvlgray);
+    background-color: var(--Colorred);
+}
+
+/* ---------------------  font style */
+
+.black {
+    font-family: var(--Fontblack);
+}
+
+.bold {
+    font-family: var(--Fontbold);
+}
+
+.Regular {
+    font-family: var(--Fontregular);
+}
+
+.light {
+    font-family: var(--Fontlight);
+}
+
+.thin {
+    font-family: var(--Fontthin);
+}
+
+/* ---------------------  font color */
+
+
+.red {
+    color: var(--Colorred);
+}
+
+.vdgray,
+.vdgray div {
+    color: var(--Colorvdgray);
+}
+
+.dgray {
+    color: var(--Colordgray);
+}
+
+.gray {
+    color: var(--Colorgray);
+}
+
+.lgray {
+    color: var(--Colorlgray);
+}
+
+.vlgray {
+    color: var(--Colorvlgray);
+}
+
+/* ---------------------  font size */
+
+.h1,
+.h1 * {
+    font-size: 5rem;
+}
+
+.h2,
+.h2 * {
+    font-size: 4rem;
+}
+
+.h3,
+.h3 * {
+    font-size: 3rem;
+}
+
+.h4,
+.h4 * {
+    font-size: 2.5rem;
+}
+
+.h5,
+.h5 * {
+    font-size: 2rem;
+}
+
+
+
+.p,
+div,
+.p * {
+    font-size: 1.6rem;
+}
+
+
+.small,
+.small * {
+    font-size: 1.4rem;
+}
+
+.vsmall,
+.vsmall * {
+    font-size: 1rem;
+}
+
+.rightBorder {
+    margin: 4rem 0;
+    border-right: 2px solid #c00;
+    padding: 0 1rem;
+}
+
+
+
+.top32 {
+    margin-top: 4rem;
+}
+
+.top16 {
+    margin-top: 2rem;
+}
+
+.top8 {
+    margin-top: 1rem;
+}
+
+.top4 {
+    margin-top: 0.5rem;
+}
+
+.top2 {
+    margin-top: 0.25rem;
+}
+
+
+
+
+/* unvisited link */
+a:link,
+a:visited,
+a:hover,
+a:active {
+    /* background-color: var(--Colorvlgray); */
+    color: var(--Colorvdgray);
+    text-decoration: none;
+    padding: 0 5px;
+    border-radius: 4px;
+    border: var(--Colorlgray) solid 1px;
+}
+
+a:hover {
+    color: var(--Colorred);
+    border: var(--Colorred) solid 1px;
+}
+
+#info {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+@media print {
+    #info {
+        left: 20px;
+        top: 0px;
+        position: absolute;
+    }
+}
