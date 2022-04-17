@@ -12,6 +12,7 @@
     --Fontthin: 'Anjoman Thin';
     --Fontblack: 'Anjoman Black';
     --Fontbold: 'Anjoman Bold';
+    --Fontprotect: 'Vazirmatn';
 }
 
 html {
@@ -54,23 +55,25 @@ body {
 /* ---------------------  font style */
 
 .black {
-    font-family: var(--Fontblack);
+    font-family: var(--Fontblack), var(--Fontprotect);
 }
 
 .bold {
-    font-family: var(--Fontbold);
+    font-family: var(--Fontbold), var(--Fontprotect);
 }
 
 .Regular {
-    font-family: var(--Fontregular);
+    font-family: var(--Fontregular), var(--Fontprotect);
 }
 
 .light {
-    font-family: var(--Fontlight);
+    font-family: var(--Fontlight), var(--Fontprotect);
+    font-weight: 100;
 }
 
 .thin {
-    font-family: var(--Fontthin);
+    font-family: var(--Fontthin), var(--Fontprotect);
+    font-weight: 100;
 }
 
 /* ---------------------  font color */
