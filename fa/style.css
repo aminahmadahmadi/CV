@@ -85,6 +85,16 @@ body {
 
 /* ---------------------  font color */
 
+#black,
+#black a {
+    color: var(--Colorblack);
+}
+
+#black a:hover {
+    color: var(--Colorvlgray);
+    background-color: var(--Colorred);
+}
+
 
 .red {
     color: var(--Colorred);
@@ -234,5 +244,12 @@ a:hover {
 
     #updateLink {
         display: inline;
+    }
+
+    body {
+        padding: 3rem;
+        margin: 0 auto;
+        /* min-width: 50%; */
+        max-width: 90%;
     }
 }
