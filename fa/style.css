@@ -216,6 +216,10 @@ a:hover {
     border: var(--Colorred) solid 1px;
 }
 
+.lineSpace {
+    line-height: 3rem;
+}
+
 #info {
     line-height: 3rem;
     position: fixed;
