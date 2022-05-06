@@ -7,17 +7,18 @@
     --Colorlgray: #eee;
     --Colorvlgray: #f5f5f5;
 
-    --Fontregular: 'Anjoman';
-    --Fontlight: 'Anjoman Light';
-    --Fontthin: 'Anjoman Thin';
-    --Fontblack: 'Anjoman Black';
-    --Fontbold: 'Anjoman Bold';
+    --Fontregular: 'IBM Plex Sans';
+    --Fontlight: 'IBM Plex Sans Light';
+    --Fontthin: 'IBM Plex Sans Thin';
+    --Fontbold: 'IBM Plex Sans Bold';
+    --Fontsemibold: 'IBM Plex Sans SemiBold';
+    --FontMono: 'IBM Plex Mono';
     --Fontprotect: 'Vazirmatn';
 }
 
 html {
-    direction: rtl;
-    color: var(--black);
+    /* direction: rtl; */
+    color: var(--Colorblack);
     font-family: var(--Fontregular), var(--Fontprotect);
     font-size: 8px;
     font-weight: 400;
@@ -29,14 +30,14 @@ body {
     padding: 3rem;
     margin: 0 auto;
     /* min-width: 50%; */
-    max-width: 65rem;
+    max-width: 70rem;
 }
 
 /* .tags {
 } */
 
 .tags div {
-    margin: 0rem -0.1rem 0.6rem 0.3rem;
+    margin: 0rem 0.3rem 0.6rem -0.1rem;
     padding: 0.3rem 1rem 0.2rem 1rem;
     border-radius: 3rem;
     background-color: var(--Colorvlgray);
@@ -56,19 +57,17 @@ body {
 
 /* ---------------------  font style */
 
-.black {
-    font-family: var(--Fontblack), var(--Fontprotect);
-    font-weight: 900;
-
+.semibold {
+    font-family: var(--Fontsemibold), var(--Fontprotect);
+    font-weight: 700;
 }
 
 .bold {
     font-family: var(--Fontbold), var(--Fontprotect);
     font-weight: 700;
-
 }
 
-.Regular {
+.regular {
     font-family: var(--Fontregular), var(--Fontprotect);
     font-weight: 400;
 }
@@ -81,6 +80,10 @@ body {
 .thin {
     font-family: var(--Fontthin), var(--Fontprotect);
     font-weight: 100;
+}
+
+.Mono {
+    font-family: var(--FontMono), var(--Fontprotect);
 }
 
 /* ---------------------  font color */
@@ -173,6 +176,12 @@ div,
     padding: 0 1rem;
 }
 
+.leftBorder {
+    margin: 4rem 0;
+    border-left: 2px solid #c00;
+    padding: 0 1rem;
+}
+
 
 
 .top32 {
@@ -217,18 +226,14 @@ a:hover {
 }
 
 #info {
-    line-height: 3rem;
+    line-height: 2.5rem;
     position: fixed;
     top: 20px;
-    left: 20px;
-    text-align: left;
+    right: 20px;
+    text-align: right;
 }
 
 #updateLink {
-    display: none;
-}
-
-#languageLink {
     display: none;
 }
 
