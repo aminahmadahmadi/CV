@@ -261,4 +261,42 @@ a:hover {
         /* min-width: 50%; */
         max-width: 90%;
     }
+
+    #skills {
+        position: absolute;
+        left: 20px;
+        top: 210px;
+        width: 30%;
+    }
+
+    #jobs {
+        position: absolute;
+        right: 5%;
+        top: 210px;
+        width: 60%;
+    }
+
+    #education {
+        position: absolute;
+        left: 20px;
+        top: 550px;
+        width: 30%;
+    }
+
+    #course {
+        position: absolute;
+        right: 5%;
+        top: 710px;
+        width: 60%;
+    }
+
+    #project {
+        position: absolute;
+        right: 5%;
+        top: 1050px;
+    }
+
+    #about {
+        width: 68%;
+    }
 }

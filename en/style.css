@@ -38,7 +38,7 @@ body {
 
 .tags div {
     margin: 0rem 0.3rem 0.6rem -0.1rem;
-    padding: 0.3rem 1rem 0.2rem 1rem;
+    padding: 0.2rem 1rem 0.3rem 1rem;
     border-radius: 3rem;
     background-color: var(--Colorvlgray);
     color: var(--Colordgray);
@@ -265,5 +265,44 @@ a:hover {
         margin: 0 auto;
         /* min-width: 50%; */
         max-width: 90%;
+    }
+
+
+    #skills {
+        position: absolute;
+        right: 20px;
+        top: 210px;
+        width: 30%;
+    }
+
+    #jobs {
+        position: absolute;
+        left: 5%;
+        top: 210px;
+        width: 55%;
+    }
+
+    #education {
+        position: absolute;
+        right: 20px;
+        top: 550px;
+        width: 30%;
+    }
+
+    #course {
+        position: absolute;
+        left: 5%;
+        top: 710px;
+        width: 60%;
+    }
+
+    #project {
+        position: absolute;
+        left: 5%;
+        top: 1050px;
+    }
+
+    #about {
+        width: 68%;
     }
 }
