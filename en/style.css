@@ -245,6 +245,50 @@ a:hover {
     break-inside: avoid;
 }
 
+
+.highlight {
+    position: relative;
+    padding-left: 20px;
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    width: 40px;
+    height: 10px;
+    transform: skew(-7deg) translateY(140%);
+    background: #eee;
+    z-index: -1;
+}
+
+.highlight2 {
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.highlight2::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 16px;
+    width: 50px;
+    height: 10px;
+    transform: skew(-7deg) translateY(120%);
+    background: #eee;
+    z-index: -1;
+}
+
+.finished::before {
+    background: #66ee5550;
+}
+
+.progress::before {
+    background: #ffff5580;
+}
+
 @media print {
     #info {
         left: 20px;
@@ -264,7 +308,7 @@ a:hover {
         padding: 3rem;
         margin: 0 auto;
         /* min-width: 50%; */
-        max-width: 90%;
+        max-width: 95%;
     }
 
 
@@ -277,7 +321,7 @@ a:hover {
 
     #jobs {
         position: absolute;
-        left: 5%;
+        left: 2.5%;
         top: 210px;
         width: 55%;
     }
@@ -291,15 +335,23 @@ a:hover {
 
     #course {
         position: absolute;
-        left: 5%;
+        left: 2.5%;
         top: 710px;
         width: 60%;
     }
 
     #project {
         position: absolute;
-        left: 5%;
+        left: 2.5%;
         top: 1050px;
+        width: 58%;
+    }
+
+    #roadmap {
+        position: absolute;
+        right: 0px;
+        top: 1050px;
+        width: 32%;
     }
 
     #about {
