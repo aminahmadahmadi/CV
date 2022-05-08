@@ -240,6 +240,31 @@ a:hover {
     break-inside: avoid;
 }
 
+.highlight {
+    position: relative;
+    padding-right: 20px;
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+    width: 40px;
+    height: 10px;
+    transform: skew(-7deg) translateY(100%);
+    background: #eee;
+    z-index: -1;
+}
+
+.finished::before {
+    background: #66ee5580;
+}
+
+.progress::before {
+    background: hsla(50, 100%, 63%, 0.502);
+}
+
 @media print {
     #info {
         left: 20px;
@@ -294,6 +319,14 @@ a:hover {
         position: absolute;
         right: 5%;
         top: 1050px;
+        width: 63%;
+    }
+
+    #roadmap {
+        position: absolute;
+        left: 0px;
+        top: 1050px;
+        width: 27%;
     }
 
     #about {
