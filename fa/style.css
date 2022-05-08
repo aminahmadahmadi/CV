@@ -276,11 +276,11 @@ a:hover {
 }
 
 .finished::before {
-    background: #66ee5580;
+    background: #66ee5550;
 }
 
 .progress::before {
-    background: hsla(50, 100%, 63%, 0.502);
+    background: #ffff5580;
 }
 
 @media print {
@@ -302,7 +302,7 @@ a:hover {
         padding: 3rem;
         margin: 0 auto;
         /* min-width: 50%; */
-        max-width: 90%;
+        max-width: 95%;
     }
 
     #skills {
@@ -314,7 +314,7 @@ a:hover {
 
     #jobs {
         position: absolute;
-        right: 5%;
+        right: 2.5%;
         top: 210px;
         width: 60%;
     }
@@ -328,14 +328,14 @@ a:hover {
 
     #course {
         position: absolute;
-        right: 5%;
+        right: 2.5%;
         top: 710px;
         width: 60%;
     }
 
     #project {
         position: absolute;
-        right: 5%;
+        right: 2.5%;
         top: 1050px;
         width: 63%;
     }
