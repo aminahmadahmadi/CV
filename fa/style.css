@@ -257,6 +257,24 @@ a:hover {
     z-index: -1;
 }
 
+.highlight2 {
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.highlight2::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 16px;
+    width: 50px;
+    height: 10px;
+    transform: skew(-7deg) translateY(120%);
+    background: #eee;
+    z-index: -1;
+}
+
 .finished::before {
     background: #66ee5580;
 }
