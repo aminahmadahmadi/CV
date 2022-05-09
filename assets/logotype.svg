@@ -1,0 +1,13 @@
+<svg viewBox="0 0 55 13" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="M2 2V11H43V10H3V3H52V10H46V11H53V2H2Z" fill="#CC0000"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M38 4V9H43V7H46V9H49V4H46V6H45V4H44V6H43V4H42V8H39V5H40V7H41V4H38ZM48 5H47V8H48V5Z" fill="#CC0000"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M31 4H28V8H27V4H24V5H26V8H24V9H35V4H32V7H33V5H34V8H31V4ZM30 8V5H29V8H30Z" fill="#CC0000"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17 4V8H20V5H19V7H18V4H21V9H10V8H12V5H10V4H13V8H14V4H17ZM16 5V8H15V5H16Z" fill="#CC0000"/>
+    <path d="M8 7V8H5V4H4V9H9V6H7V5H9V4H6V7H8Z" fill="#CC0000"/>
+    <path d="M45 8H44V9H45V8Z" fill="#CC0000"/>
+    <path d="M44 10H45V11H44V10Z" fill="#CC0000"/>
+    <path d="M51 4H50V9H51V4Z" fill="#CC0000"/>
+    <path d="M36 4H37V9H36V4Z" fill="#CC0000"/>
+    <path d="M23 4H22V9H23V4Z" fill="#CC0000"/>
+</svg>
